@@ -1,0 +1,36 @@
+/backend
+├── /config
+│   ├── db.js               # Database connection logic
+│   ├── env.js              # Environment variable setup
+├── /controllers
+│   ├── userController.js   # Controller for user-related logic
+│   ├── authController.js   # Controller for authentication
+├── /middleware
+│   ├── authMiddleware.js   # Middleware for authorization
+│   ├── errorHandler.js     # Global error handler
+├── /models
+│   ├── User.js             # User schema/model
+│   ├── Post.js             # Post schema/model
+├── /routes
+│   ├── userRoutes.js       # Routes for user-related APIs
+│   ├── authRoutes.js       # Routes for authentication APIs
+├── /utils
+│   ├── helpers.js          # Utility functions
+│   ├── emailSender.js      # Helper for sending emails
+├── app.js                  # Main Express application
+├── server.js               # Server setup and listening
+├── package.json            # Backend dependencies
+
+
+Install Required Packages
+Install Express, Mongoose (for MongoDB), and other necessary packages:
+bash
+npm install express mongoose dotenv nodemailer bcryptjs jsonwebtoken cors
+
+express: Web framework for Node.js.
+mongoose: MongoDB object modeling tool.
+dotenv: Loads environment variables from a .env file.
+nodemailer: For sending emails.
+bcryptjs: For hashing passwords.
+jsonwebtoken: For generating JWT tokens.
+cors: To enable Cross-Origin Resource Sharing.

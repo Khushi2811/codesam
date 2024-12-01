@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* src/styles.css or in your main CSS file */
+.sidebar {
+  width: 250px; /* Width of the sidebar */
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+}
+
+.sidebar a:hover {
+  background-color: #f0f0f0; /* Light gray on hover */
+}
